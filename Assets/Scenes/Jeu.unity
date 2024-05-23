@@ -2308,7 +2308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreData: {fileID: 11400000, guid: 6393f1108fa88d24a9e47593ba02022e, type: 2}
   scoreText: {fileID: 138101481}
-  scoreMax: 10
+  scoreMax: 5
 --- !u!1001 &271318080
 PrefabInstance:
   m_ObjectHideFlags: 0

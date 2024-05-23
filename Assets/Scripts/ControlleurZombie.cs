@@ -26,7 +26,7 @@ using UnityEngine.AI;
         {
             Vector3 positionJoueur = _joueur.transform.position;
             Monstre.SetDestination(positionJoueur);
-            //calcule la distasnce entre l'agent et la destination
+            //calcule la distance entre l'agent et la destination
             float distance = Vector3.Distance(Monstre.transform.position, positionJoueur);
             if (distance <= Monstre.stoppingDistance)
             {

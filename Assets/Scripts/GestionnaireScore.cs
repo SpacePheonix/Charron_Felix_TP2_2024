@@ -5,7 +5,7 @@ using TMPro;
 public class GestionnaireScore : MonoBehaviour
 {
     public int score;
-    public int scoreMax = 10; // Score nécessaire pour changer de scène
+    public int scoreMax = 5; // Score nécessaire pour changer de scène
     public TMP_Text scoreText;
 
     private void Start()
