@@ -6,7 +6,7 @@ public class AfficherScore : MonoBehaviour
 {
     [SerializeField] private ScoreData scoreData;
     [SerializeField] private TextMeshProUGUI scoreText;
-    [SerializeField] private int scoreMax = 5; // Score nécessaire pour changer de scène
+    [SerializeField] private int scoreMax = 10; // Score nécessaire pour changer de scène
 
     
     private void Update()

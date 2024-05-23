@@ -14,7 +14,7 @@ public class Vie : MonoBehaviour
 
     void Start()
     {
-        health = 10;
+        health = 5;
     }
 
     public void TakeDamage(int amount)
